@@ -1,6 +1,6 @@
 .section-container{
     padding: 40px 30px;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     position:sticky;
     top: 0;

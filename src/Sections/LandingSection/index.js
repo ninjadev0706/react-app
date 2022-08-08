@@ -9,10 +9,13 @@ const LandingSection = (props) => {
   return (
     <div
       className="section-container"
-      style={{ color: props.color, background: props.background }}
+      style={{ color: props.color, background: props.background, borderRadius: !props.sectionNum && '50px 50px 0 0' }}
     >
       <div className="d-flex">
-        <VideoControl color={props.color} />
+        {
+          props.sectionNum &&
+          <VideoControl color={props.color} />
+        }
       </div>
       <div className="middle-section row justify-content-end">
         <div className="right-section col-md-7 col-sm-12 d-flex align-items-center justify-content-end">
@@ -25,7 +28,7 @@ const LandingSection = (props) => {
             }}
           /> */}
           <div className="video-container">
-          <ReactPlayer url={props.videoSource} muted={true} playsinline={true} loop={true} playing={true} width="100%" height="auto"/>
+            <ReactPlayer url={props.videoSource} muted={true} playsinline={true} loop={true} playing={true} width="100%" height="auto" />
           </div>
           {/* <div
             dangerouslySetInnerHTML={{
