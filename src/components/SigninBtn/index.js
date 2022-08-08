@@ -1,8 +1,10 @@
 import "./style.css";
 import metamask from "../../assets/Icons/metamask.svg";
+import MacosIcon from "../../assets/Icons/macos";
+import WindowsIcon from "../../assets/Icons/windows";
 import AppleIcon from "../../assets/Icons/apple";
-import macos from "../../assets/Icons/macos.svg";
-import windows from "../../assets/Icons/windows.svg";
+// import macos from "../../assets/Icons/macos.svg";
+// import windows from "../../assets/Icons/windows.svg";
 import googlePlayIcon from "../../assets/Icons/googlePlay.png";
 const SigninBtn = (props) => {
   return (
@@ -18,8 +20,8 @@ const SigninBtn = (props) => {
       <div style={{ paddingLeft: "20px", display: 'flex' }}>
         <span className="me-3 ico-text">or</span>
         <div className="icon-grp">
-          <img className="icon-item" src={macos} alt=""></img>
-          <img className="icon-item" src={windows} alt=""></img>
+          <MacosIcon className="icon-item" color={props.color} />
+          <WindowsIcon className="icon-item" color={props.color} />
           <AppleIcon className="icon-item" color={props.color} />
           <img className="icon-item" src={googlePlayIcon} alt=""></img>
         </div>
