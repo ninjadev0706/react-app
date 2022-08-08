@@ -9,7 +9,7 @@ const LandingSection = (props) => {
   return (
     <div
       className={`section-container logo-scroll${props.sectionNum}`}
-      style={{ color: props.color, background: props.background, borderRadius: !props.sectionNum && '50px 50px 0 0' }}
+      style={{ color: props.color, background: props.background, borderRadius: props.sectionNum === "1" ? '0' :'50px 50px 0 0' }}
     >
       <div className="middle-section row justify-content-end">
         <div className="right-section col-md-7 col-sm-12 d-flex align-items-center justify-content-end">
