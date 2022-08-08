@@ -25,6 +25,13 @@
     bottom: 0;
     opacity: 0.5;
 }
+.ico-text {
+    margin-right: 20px;
+}
+
+.icon-item {
+    margin: 0 8px;
+}
 @media only screen and (max-width: 767px) {
     .btn-container{
         font-size:11px;
