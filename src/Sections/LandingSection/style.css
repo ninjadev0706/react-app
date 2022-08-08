@@ -18,7 +18,7 @@
 }
 .right-section video{
     border-radius: 20px;
-    margin-top: -60px;
+    /* margin-top: -60px; */
     object-fit: fill;
 }
 .video-container{
