@@ -1,0 +1,10 @@
+.logo-svg {
+    position: fixed;
+    top: 40px;
+    left: 30px;
+}
+
+.landingPage-container {
+    height: 100vh;
+    overflow-y:scroll;
+}
