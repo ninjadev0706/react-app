@@ -85,3 +85,18 @@
         height: 80vw;
     }
 }
+
+@media only screen and (min-width: 1550px) {
+    .left-section {
+        padding-left: 108px;
+    }
+    .middle-section {
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (min-width: 1750px) {
+    .middle-section {
+        margin-right: 170px;
+    }
+}
