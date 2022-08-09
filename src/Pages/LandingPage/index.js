@@ -30,11 +30,11 @@ const LandingPage = (props) => {
                 <VideoControl color={logoColor} />
             </div>
             <LandingSection sectionNum="1" color="white" background="black" group="Artists" videoSource="/videos/1.mp4" />
-            <LandingSection sectionNum="2" color="black" state={state} setState={setState} background="#E3D7CD" group="Creators" videoSource="/videos/2.mp4" />
-            <LandingSection sectionNum="3" color="black" background="#00FFFF" group="DJs" videoSource="/videos/3.mp4" />
-            <LandingSection sectionNum="4" color="black" background="#FFFFFF" group="Musicians" videoSource="/videos/4.mp4" />
-            <LandingSection sectionNum="5" color="black" background="#9DFF00" group="Dancers" videoSource="/videos/5.mp4" />
-            <LandingSection sectionNum="6" color="black" background="#D3B8FD" group="Podcasters" videoSource="/videos/6.mp4" />
+            <LandingSection sectionNum="2" color="black" state={state} setState={setState} background="#D3B8FD" group="Podcasters" videoSource="/videos/6.mp4" />
+            <LandingSection sectionNum="3" color="black" background="#E3D7CD" group="Creators" videoSource="/videos/2.mp4" />
+            <LandingSection sectionNum="4" color="black" background="#00FFFF" group="DJs" videoSource="/videos/3.mp4" />
+            <LandingSection sectionNum="5" color="black" background="#FFFFFF" group="Musicians" videoSource="/videos/4.mp4" />
+            <LandingSection sectionNum="6" color="black" background="#9DFF00" group="Dancers" videoSource="/videos/5.mp4" />
         </div>
     )
 };
